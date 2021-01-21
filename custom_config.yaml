@@ -1,0 +1,18 @@
+# Path to data
+DATA_PATH: "../test_split_data"
+
+# Path to file with class name
+CLASSES: "classes.txt"
+
+IMG_SIZE: "640"
+BATCH_SIZE: "1"
+EPOCHS: "1"
+
+# This file generated automaticaly
+CONFIG_PATH: "dataset.yaml"
+
+# Path to trainable model
+MODEL_PATH: '\models\yolov5x.yaml'
+
+SAVE_PATH: "yolov5x.pt"
+MODEL_NAME: "yolov5_result"
